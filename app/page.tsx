@@ -69,7 +69,7 @@ export default function Home() {
                   <span className="cursor">|</span>
                 </div>
                 <p className="hero-description">
-                  I am fullstack developer with 1+ years of experience.
+                  I am fullstack developer with 2+ years of experience.
                   Experienced building high quality solutions website, eager to
                   learn and grow.
                 </p>
