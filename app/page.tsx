@@ -136,7 +136,7 @@ export default function Home() {
                   <h3>My Experties</h3>
                   <p>
                     I have proficiency in several programming languages and
-                    frameworks, including Laravel, Codeigniter 4, bootstrap,
+                    frameworks, including React js, Express js, Laravel, Codeigniter 4, bootstrap,
                     PHP, Javascript, and MySQL. I am also familiar with other
                     tools like docker, git, and github and have experience
                     working within dynamic teams.
