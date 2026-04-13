@@ -31,23 +31,18 @@ if (document.readyState !== "loading") {
       });
 
       // Mulai animasi segera (tanpa delay tambahan)
-      if (heroElements[0])
-        heroElements[0].style.animation = "fadeInUp 1s forwards";
+      if (heroElements[0]) heroElements[0].style.animation = "fadeInUp 1s forwards";
       setTimeout(() => {
-        if (heroElements[1])
-          heroElements[1].style.animation = "fadeInUp 1s forwards";
+        if (heroElements[1]) heroElements[1].style.animation = "fadeInUp 1s forwards";
       }, 200);
       setTimeout(() => {
-        if (heroElements[2])
-          heroElements[2].style.animation = "fadeInUp 1s forwards";
+        if (heroElements[2]) heroElements[2].style.animation = "fadeInUp 1s forwards";
       }, 400);
       setTimeout(() => {
-        if (heroElements[3])
-          heroElements[3].style.animation = "fadeInUp 1s forwards";
+        if (heroElements[3]) heroElements[3].style.animation = "fadeInUp 1s forwards";
       }, 600);
       setTimeout(() => {
-        if (heroElements[4])
-          heroElements[4].style.animation = "fadeInUp 1s forwards";
+        if (heroElements[4]) heroElements[4].style.animation = "fadeInUp 1s forwards";
       }, 800);
       setTimeout(() => {
         if (heroElements[5]) {
@@ -83,11 +78,7 @@ if (document.readyState !== "loading") {
   // Typing Animation
   function type() {
     const typingText = document.getElementById("typing-text");
-    const phrases = [
-      "Fullstack Developer",
-      "Laravel Developer",
-      "Backend Developer",
-    ];
+    const phrases = ["Fullstack Developer", "Software Engineer"];
     let phraseIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -197,10 +188,7 @@ if (document.readyState !== "loading") {
       const filterValue = this.getAttribute("data-filter");
 
       projectItems.forEach((item) => {
-        if (
-          filterValue === "all" ||
-          item.getAttribute("data-category") === filterValue
-        ) {
+        if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
           item.style.display = "block";
           setTimeout(() => {
             item.style.opacity = "1";
@@ -228,9 +216,7 @@ if (document.readyState !== "loading") {
       if (targetElement) {
         const headerHeight = document.querySelector("header").offsetHeight;
         const targetPosition =
-          targetElement.getBoundingClientRect().top +
-          window.pageYOffset -
-          headerHeight;
+          targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
 
         window.scrollTo({
           top: targetPosition,
@@ -339,9 +325,7 @@ if (document.readyState !== "loading") {
             return response
               .json()
               .then((errData) => {
-                throw new Error(
-                  errData.message || `Server error: ${response.status}`
-                );
+                throw new Error(errData.message || `Server error: ${response.status}`);
               })
               .catch(() => {
                 // Jika tidak ada pesan JSON, lempar error umum
@@ -353,17 +337,11 @@ if (document.readyState !== "loading") {
         .then((data) => {
           // Server mengembalikan sukses
           if (data.success) {
-            showFormAlert(
-              "Your message has been sent successfully!",
-              "success"
-            );
+            showFormAlert("Your message has been sent successfully!", "success");
             contactForm.reset(); // Reset form jika berhasil
           } else {
             // Server mengembalikan pesan error spesifik
-            showFormAlert(
-              data.message || "An error occurred. Please try again.",
-              "error"
-            );
+            showFormAlert(data.message || "An error occurred. Please try again.", "error");
           }
         })
         .catch((error) => {
@@ -491,7 +469,7 @@ if (document.readyState !== "loading") {
             }
           });
         },
-        { threshold: 0.2 }
+        { threshold: 0.2 },
       );
 
       // Start observing

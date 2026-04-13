@@ -1,6 +1,7 @@
 "use client";
+
 import Script from "next/script";
-import "./globals.css";
+import "@/app/globals.css";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -69,9 +70,8 @@ export default function Home() {
                   <span className="cursor">|</span>
                 </div>
                 <p className="hero-description">
-                  I am fullstack developer with 2+ years of experience.
-                  Experienced building high quality solutions website, eager to
-                  learn and grow.
+                  I am fullstack developer with 3+ years of experience. Experienced building high
+                  quality solutions website, eager to learn and grow.
                 </p>
                 <div className="cta-buttons">
                   <a href="#projects" className="btn primary-btn">
@@ -85,16 +85,10 @@ export default function Home() {
                   <a href="https://github.com/1wikii" target="_blank">
                     <i className="fa-brands fa-github"></i>
                   </a>
-                  <a
-                    href="https://www.linkedin.com/in/ahmad-dwiky/"
-                    target="_blank"
-                  >
+                  <a href="https://www.linkedin.com/in/ahmad-dwiky/" target="_blank">
                     <i className="fa-brands fa-linkedin"></i>
                   </a>
-                  <a
-                    href="https://www.instagram.com/dwiky_dixxon/"
-                    target="_blank"
-                  >
+                  <a href="https://www.instagram.com/dwiky_dixxon/" target="_blank">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
                 </div>
@@ -127,19 +121,21 @@ export default function Home() {
                 <div className="about-text">
                   <h3>Who am I?</h3>
                   <p>
-                    I'm a dedicated fullstack developer with a passion for
-                    creating innovative solutions. I am a self-taught developer
-                    with a passion for learning and growing. I am a quick
-                    learner and I am always looking for new challenges.
+                    I am a fullstack developer with experience developing frontend applications with
+                    React.js and building RESTful APIs using Node.js (Express.js). I am continuously
+                    exploring lightweight frameworks such as Hono to improve performance and
+                    efficiency in backend services.
                   </p>
 
-                  <h3>My Experties</h3>
+                  <h3>My Expertise</h3>
+
                   <p>
-                    I have proficiency in several programming languages and
-                    frameworks, including React js, Express js, Laravel, Codeigniter 4, bootstrap,
-                    PHP, Javascript, and MySQL. I am also familiar with other
-                    tools like docker, git, and github and have experience
-                    working within dynamic teams.
+                    My technical expertise includes TypeScript, React.js, Express.js, and PostgreSQL
+                    for building end-to-end web applications. I also have experience working with
+                    React.js, Laravel, and CodeIgniter 4 in various projects. I am familiar with
+                    designing REST APIs, optimizing database queries, and applying clean
+                    architecture principles. Additionally, I use tools such as Git, GitHub, and
+                    Docker to support collaborative development and deployment workflows.
                   </p>
 
                   <div className="personal-info">
@@ -157,15 +153,11 @@ export default function Home() {
                     </div>
                     <div className="info-item">
                       <span className="info-title">Location:</span>
-                      <span className="info-value">
-                        Bandar Lampung, Indonesia
-                      </span>
+                      <span className="info-value">Bandar Lampung, Indonesia</span>
                     </div>
                     <div className="info-item">
                       <span className="info-title">Availability:</span>
-                      <span className="info-value">
-                        Available for Freelance
-                      </span>
+                      <span className="info-value">Available for Freelance</span>
                     </div>
                   </div>
 
@@ -189,6 +181,17 @@ export default function Home() {
                   <div className="skills-grid">
                     <div className="skill-item" data-aos="fade-up">
                       <div className="skill-icon">
+                        <i className="fa-brands fa-node-js"></i>
+                      </div>
+                      <h4>Expressjs</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[70%]"></div>
+                      </div>
+                      <span className="progress-value">70%</span>
+                    </div>
+
+                    <div className="skill-item" data-aos="fade-up">
+                      <div className="skill-icon">
                         <i className="fa-brands fa-laravel"></i>
                       </div>
                       <h4>Laravel</h4>
@@ -197,11 +200,8 @@ export default function Home() {
                       </div>
                       <span className="progress-value">70%</span>
                     </div>
-                    <div
-                      className="skill-item"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                    >
+
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="100">
                       <div className="skill-icon">
                         <i className="fa-solid fa-fire-flame-curved"></i>
                       </div>
@@ -211,11 +211,8 @@ export default function Home() {
                       </div>
                       <span className="progress-value">80%</span>
                     </div>
-                    <div
-                      className="skill-item"
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                    >
+
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="200">
                       <div className="skill-icon">
                         <i className="fab fa-php"></i>
                       </div>
@@ -225,11 +222,7 @@ export default function Home() {
                       </div>
                       <span className="progress-value">85%</span>
                     </div>
-                    <div
-                      className="skill-item"
-                      data-aos="fade-up"
-                      data-aos-delay="300"
-                    >
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="300">
                       <div className="skill-icon">
                         <i className="fab fa-python"></i>
                       </div>
@@ -240,11 +233,18 @@ export default function Home() {
                       <span className="progress-value">50%</span>
                     </div>
 
-                    <div
-                      className="skill-item"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                    >
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="100">
+                      <div className="skill-icon">
+                        <i className="fas fa-database"></i>
+                      </div>
+                      <h4>Postgresql</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[70%]"></div>
+                      </div>
+                      <span className="progress-value">70%</span>
+                    </div>
+
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="100">
                       <div className="skill-icon">
                         <i className="fas fa-database"></i>
                       </div>
@@ -270,11 +270,18 @@ export default function Home() {
                       </div>
                       <span className="progress-value">70%</span>
                     </div>
-                    <div
-                      className="skill-item"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                    >
+
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="100">
+                      <div className="skill-icon">
+                        <i className="fas fa-layer-group"></i>
+                      </div>
+                      <h4>Shadcd UI</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[70%]"></div>
+                      </div>
+                      <span className="progress-value">70%</span>
+                    </div>
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="100">
                       <div className="skill-icon">
                         <i className="fas fa-b"></i>
                       </div>
@@ -284,11 +291,7 @@ export default function Home() {
                       </div>
                       <span className="progress-value">90%</span>
                     </div>
-                    <div
-                      className="skill-item"
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                    >
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="200">
                       <div className="skill-icon">
                         <i className="fas fa-wind"></i>
                       </div>
@@ -298,11 +301,7 @@ export default function Home() {
                       </div>
                       <span className="progress-value">60%</span>
                     </div>
-                    <div
-                      className="skill-item"
-                      data-aos="fade-up"
-                      data-aos-delay="300"
-                    >
+                    <div className="skill-item" data-aos="fade-up" data-aos-delay="300">
                       <div className="skill-icon">
                         <i className="fas fa-water"></i>
                       </div>
@@ -311,6 +310,66 @@ export default function Home() {
                         <div className="progress-bar w-[65%]"></div>
                       </div>
                       <span className="progress-value">65%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="skill-category">
+                  <h3>Server Managment</h3>
+                  <div className="skills-grid">
+                    <div className="skill-item" data-aos="fade-up">
+                      <div className="skill-icon">
+                        <i className="fas fa-circle-check"></i>
+                      </div>
+                      <h4>CI/CD</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[70%]"></div>
+                      </div>
+                      <span className="progress-value">70%</span>
+                    </div>
+
+                    <div className="skill-item" data-aos="fade-up">
+                      <div className="skill-icon">
+                        <i className="fa-brands fa-github"></i>
+                      </div>
+                      <h4>Github Actions</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[70%]"></div>
+                      </div>
+                      <span className="progress-value">70%</span>
+                    </div>
+
+                    <div className="skill-item" data-aos="fade-up">
+                      <div className="skill-icon">
+                        <i className="fas fa-server"></i>
+                      </div>
+                      <h4>Managing VPS</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[60%]"></div>
+                      </div>
+                      <span className="progress-value">60%</span>
+                    </div>
+
+                    <div className="skill-item" data-aos="fade-up">
+                      <div className="skill-icon">
+                        <i className="fa-brands fa-ubuntu"></i>
+                      </div>
+                      <h4>Ubuntu Server</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[50%]"></div>
+                      </div>
+                      <span className="progress-value">50%</span>
+                    </div>
+
+                    <div className="skill-item" data-aos="fade-up">
+                      <div className="skill-icon">
+                        <i className="fas fa-sliders"></i>
+                      </div>
+                      <h4>Servers Panel</h4>
+                      <div className="skill-progress">
+                        <div className="progress-bar w-[60%]"></div>
+                      </div>
+                      <span className="progress-value">60%</span>
                     </div>
                   </div>
                 </div>
@@ -382,16 +441,109 @@ export default function Home() {
                 <div className="underline"></div>
               </div>
               <div className="projects-grid">
+                {/* Arsari */}
+                <div className="project-item" data-category="web">
+                  <div className="project-img">
+                    <img src="/projects/arsari.png" alt="Project 1" />
+                  </div>
+                  <div className="project-info">
+                    <h3>Cmms Arsari Tambang</h3>
+                    <p>
+                      INDUSTRIAL LEVEL ASSET MAINTENANCE MANAGEMENT for arsari tambang A tin and
+                      mineral mining company engaged in exploration, exploitation, mining,
+                      processing, smelting, refining, sales, and export of tin in the Bangka
+                      Belitung Islands region.
+                    </p>
+                    <div className="project-tech">
+                      <span>Codeigniter 4</span>
+                      <span>Jquery</span>
+                      <span>Mysql</span>
+                    </div>
+                    <div className="project-links">
+                      <a
+                        href="https://arsaritambangcmms.com/"
+                        target="_blank"
+                        className="btn primary-btn"
+                      >
+                        Live Web
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Kayan */}
+                <div className="project-item" data-category="web">
+                  <div className="project-img">
+                    <img src="/projects/kayan.png" alt="Project 1" />
+                  </div>
+                  <div className="project-info">
+                    <h3>Cmms Kayan Lng</h3>
+                    <p>
+                      INDUSTRIAL LEVEL ASSET MAINTENANCE MANAGEMENT for kayan lng a major industry
+                      company operating in the natural gas development sector in Indonesia
+                    </p>
+                    <div className="project-tech">
+                      <span>Codeigniter 4</span>
+                      <span>Jquery</span>
+                      <span>Mysql</span>
+                    </div>
+                    <div className="project-links">
+                      <a
+                        href="https://cmms.kayanlng.com/"
+                        target="_blank"
+                        className="btn primary-btn"
+                      >
+                        Live Web
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* GATA */}
+                <div className="project-item" data-category="web">
+                  <div className="project-img">
+                    <img src="/projects/gata.png" alt="Project 1" />
+                  </div>
+                  <div className="project-info">
+                    <h3>GATA</h3>
+                    <p>
+                      Gerbang Administrasi Tugas Akhir is a web application designed to streamline
+                      the management of final year projects for students and faculty members.
+                    </p>
+                    <div className="project-tech">
+                      <span>Express js (API)</span>
+                      <span>React js</span>
+                      <span>Tailwind CSS</span>
+                      <span>Postgresql</span>
+                    </div>
+                    <div className="project-links">
+                      <a
+                        href="https://gata-frontend.vercel.app/"
+                        target="_blank"
+                        className="btn primary-btn"
+                      >
+                        Live Web
+                      </a>
+
+                      <a
+                        href="https://github.com/1wikii/gata-frontend"
+                        target="_blank"
+                        className="btn primary-btn"
+                      >
+                        Repo
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bank Sampah */}
                 <div className="project-item" data-category="web">
                   <div className="project-img">
                     <img src="/projects/bank-sampah.png" alt="Project 1" />
                   </div>
                   <div className="project-info">
                     <h3>Bank Sampah</h3>
-                    <p>
-                      Website to manage waste management for PT. Bank Sampah
-                      Sahabat Gajah
-                    </p>
+                    <p>Website to manage waste management for PT. Bank Sampah Sahabat Gajah</p>
                     <div className="project-tech">
                       <span>Laravel (API)</span>
                       <span>Alpine Js</span>
@@ -417,8 +569,8 @@ export default function Home() {
                   <div className="project-info">
                     <h3>Fitacademy.id</h3>
                     <p>
-                      Fitacademy.id is A web-based microlearning platform that
-                      provides modular digital learning content for UMKM users.
+                      Fitacademy.id is A web-based microlearning platform that provides modular
+                      digital learning content for UMKM users.
                     </p>
                     <div className="project-tech">
                       <span>Laravel (API)</span>
@@ -428,10 +580,7 @@ export default function Home() {
                       <span>Mysql</span>
                     </div>
                     <div className="project-links">
-                      <a
-                        href="https://fitacademy.id/"
-                        className="btn primary-btn"
-                      >
+                      <a href="https://fitacademy.id/" className="btn primary-btn">
                         Live Web
                       </a>
                     </div>
@@ -444,10 +593,7 @@ export default function Home() {
                   </div>
                   <div className="project-info">
                     <h3>kominfo.pesawarankab.go.id</h3>
-                    <p>
-                      Kominfo Kab.Pesawaran Website profile and services for
-                      citizen.
-                    </p>
+                    <p>Kominfo Kab.Pesawaran Website profile and services for citizen.</p>
                     <div className="project-tech">
                       <span>Codeigniter</span>
                       <span>Bootstrap</span>
@@ -473,9 +619,8 @@ export default function Home() {
                   <div className="project-info">
                     <h3>Pajaresuk Tourism Website</h3>
                     <p>
-                      A responsive tourism website showcasing the attractions,
-                      culinary offerings, and cultural heritage of Pajaresuk
-                      Village in Pringsewu, Lampung, Indonesia.
+                      A responsive tourism website showcasing the attractions, culinary offerings,
+                      and cultural heritage of Pajaresuk Village in Pringsewu, Lampung, Indonesia.
                     </p>
                     <div className="project-tech">
                       <span>HTML5</span>
@@ -530,8 +675,8 @@ export default function Home() {
                 <div className="contact-info">
                   <h3>Let's Talk About Your Project</h3>
                   <p>
-                    Feel free to reach out if you're looking for a developer,
-                    have a question, or just want to connect.
+                    Feel free to reach out if you're looking for a developer, have a question, or
+                    just want to connect.
                   </p>
 
                   <div className="contact-details">
@@ -552,9 +697,7 @@ export default function Home() {
                       </div>
                       <div className="text">
                         <h4>Phone</h4>
-                        <a href="https://wa.me/6281286330034">
-                          +62 812 8633 0034
-                        </a>
+                        <a href="https://wa.me/6281286330034">+62 812 8633 0034</a>
                       </div>
                     </div>
                     <div className="contact-item">
@@ -572,16 +715,10 @@ export default function Home() {
                     <a href="https://github.com/1wikii" target="_blank">
                       <i className="fab fa-github"></i>
                     </a>
-                    <a
-                      href="https://www.linkedin.com/in/ahmad-dwiky/"
-                      target="_blank"
-                    >
+                    <a href="https://www.linkedin.com/in/ahmad-dwiky/" target="_blank">
                       <i className="fab fa-linkedin"></i>
                     </a>
-                    <a
-                      href="https://www.instagram.com/dwiky_dixxon/"
-                      target="_blank"
-                    >
+                    <a href="https://www.instagram.com/dwiky_dixxon/" target="_blank">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </div>
@@ -619,24 +756,17 @@ export default function Home() {
                   <a href="https://github.com/1wikii" target="_blank">
                     <i className="fab fa-github"></i>
                   </a>
-                  <a
-                    href="https://www.linkedin.com/in/ahmad-dwiky/"
-                    target="_blank"
-                  >
+                  <a href="https://www.linkedin.com/in/ahmad-dwiky/" target="_blank">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                  <a
-                    href="https://www.instagram.com/dwiky_dixxon/"
-                    target="_blank"
-                  >
+                  <a href="https://www.instagram.com/dwiky_dixxon/" target="_blank">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </div>
               </div>
               <div className="footer-bottom">
                 <p>
-                  &copy; <span id="current-year"></span> dwiki. All Rights
-                  Reserved.
+                  &copy; <span id="current-year"></span> dwiki. All Rights Reserved.
                 </p>
               </div>
             </div>
@@ -646,10 +776,7 @@ export default function Home() {
             <i className="fas fa-arrow-up"></i>
           </a>
           {/* Add these at the end of your component */}
-          <Script
-            src="https://unpkg.com/scrollreveal"
-            strategy="afterInteractive"
-          />
+          <Script src="https://unpkg.com/scrollreveal" strategy="afterInteractive" />
           <Script src="/script.js" strategy="afterInteractive" />
         </>
       )}
