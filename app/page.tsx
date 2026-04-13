@@ -161,7 +161,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <a href="/CV-Ahmad-Dwiky.pdf" className="btn primary-btn">
+                  <a href="/CV.pdf" className="btn primary-btn">
                     Download CV
                   </a>
                 </div>
