@@ -580,7 +580,7 @@ export default function Home() {
                       <span>Mysql</span>
                     </div>
                     <div className="project-links">
-                      <a href="https://fitacademy.id/" className="btn primary-btn">
+                      <a href="https://fitacademy.id/" className="btn primary-btn" target="_blank">
                         Live Web
                       </a>
                     </div>
