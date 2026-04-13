@@ -530,7 +530,7 @@ export default function Home() {
                         target="_blank"
                         className="btn primary-btn"
                       >
-                        Repo
+                        Source Code
                       </a>
                     </div>
                   </div>
