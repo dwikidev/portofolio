@@ -157,7 +157,7 @@ export default function Home() {
                     </div>
                     <div className="info-item">
                       <span className="info-title">Availability:</span>
-                      <span className="info-value">Available for Freelance</span>
+                      <span className="info-value">Open to Work</span>
                     </div>
                   </div>
 
