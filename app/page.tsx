@@ -377,6 +377,7 @@ export default function Home() {
                 <div className="skill-category">
                   <h3>Tools</h3>
                   <div className="skills-grid">
+                    {/*  
                     <div className="skill-item" data-aos="fade-up">
                       <div className="skill-icon">
                         <i className="fas fa-bars-progress"></i>
@@ -387,6 +388,8 @@ export default function Home() {
                       </div>
                       <span className="progress-value">80%</span>
                     </div>
+                     */}
+
                     <div className="skill-item" data-aos="fade-up">
                       <div className="skill-icon">
                         <i className="fas fa-pen"></i>
